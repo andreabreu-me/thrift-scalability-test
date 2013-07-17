@@ -1,0 +1,88 @@
+1 threads 60 s 0 bytes/msg
+207174 total operations
+Throughput: 3452.473 ops/s
+Average latency: 0.28801313 ms
+2 threads 60 s 0 bytes/msg
+386187 total operations
+Throughput: 6435.6587 ops/s
+Average latency: 0.30885172 ms
+4 threads 60 s 0 bytes/msg
+698182 total operations
+Throughput: 11634.755 ops/s
+Average latency: 0.34152323 ms
+8 threads 60 s 0 bytes/msg
+1287133 total operations
+Throughput: 21448.55 ops/s
+Average latency: 0.3706453 ms
+16 threads 60 s 0 bytes/msg
+2194041 total operations
+Throughput: 36559.746 ops/s
+Average latency: 0.4351413 ms
+32 threads 60 s 0 bytes/msg
+2956107 total operations
+Throughput: 49254.992 ops/s
+Average latency: 0.64681643 ms
+64 threads 60 s 0 bytes/msg
+3780011 total operations
+Throughput: 62957.793 ops/s
+Average latency: 1.0128484 ms
+128 threads 60 s 0 bytes/msg
+3691256 total operations
+Throughput: 61462.875 ops/s
+Average latency: 2.0689142 ms
+256 threads 60 s 0 bytes/msg
+2680437 total operations
+Throughput: 44580.125 ops/s
+Average latency: 5.683652 ms
+512 threads 60 s 0 bytes/msg
+3048874 total operations
+Throughput: 49902.008 ops/s
+Average latency: 9.6294565 ms
+1024 threads 60 s 0 bytes/msg
+3457837 total operations
+Throughput: 49329.254 ops/s
+Average latency: 20.030739 ms
+2500 threads 60 s 0 bytes/msg
+2917214 total operations
+Throughput: 46904.54 ops/s
+Average latency: 46.230606 ms
+3000 threads 60 s 0 bytes/msg
+3645675 total operations
+Throughput: 58300.133 ops/s
+Average latency: 44.949966 ms
+3500 threads 60 s 0 bytes/msg
+3364648 total operations
+Throughput: 53442.96 ops/s
+Average latency: 49.316387 ms
+4000 threads 60 s 0 bytes/msg
+2870329 total operations
+Throughput: 38337.234 ops/s
+Average latency: 86.60757 ms
+4500 threads 60 s 0 bytes/msg
+2337325 total operations
+Throughput: 36839.598 ops/s
+Average latency: 102.40404 ms
+5000 threads 60 s 0 bytes/msg
+2760813 total operations
+Throughput: 43379.08 ops/s
+Average latency: 73.82877 ms
+6000 threads 60 s 0 bytes/msg
+2618779 total operations
+Throughput: 40731.37 ops/s
+Average latency: 91.054375 ms
+7000 threads 60 s 0 bytes/msg
+2467263 total operations
+Throughput: 38002.36 ops/s
+Average latency: 95.40144 ms
+8000 threads 60 s 0 bytes/msg
+3636709 total operations
+Throughput: 38293.26 ops/s
+Average latency: 86.13706 ms
+9000 threads 60 s 0 bytes/msg
+3112638 total operations
+Throughput: 47457.492 ops/s
+Average latency: 77.94972 ms
+10000 threads 60 s 0 bytes/msg
+2211953 total operations
+Throughput: 33648.055 ops/s
+Average latency: 86.31285 ms
