@@ -8,9 +8,11 @@ PAYLOAD_SIZE=0
 
 rm -if results.txt
 
-for THREADS in 1 2 4 8 16 32 64 128 256 512
+for THREADS in 1 2 4 8 16 32 64 128 256 512 1024 2048
 do
-    ssh $1 $2 &
+    ssh $1 "pkill -9 java"
+    ssh $1  "${@:2}" &
+    sleep 5
     echo $THREADS "threads" $RUNTIME "s" $PAYLOAD_SIZE "bytes/msg" | tee results.txt
     bin/start-client.sh $1 $THREADS $RUNTIME $PAYLOAD_SIZE | tee results.txt
     kill -9 $!
