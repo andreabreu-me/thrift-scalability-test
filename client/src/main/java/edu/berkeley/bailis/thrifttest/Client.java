@@ -71,7 +71,7 @@ public class Client {
             if(numberOps.get() > 0) {
                 System.out.println(numberOps.get()+" total operations");
                 System.out.println("Throughput: "+(float)numberOps.get()/(System.currentTimeMillis()-startTimeMs)*1000+" ops/s");
-                System.out.println("Average latency: "+(float)numberOps.get()/totalLatency.get()+" ms");
+                System.out.println("Average latency: "+(float)totalLatency.get()/numberOps.get()+" ms");
             } else {
                 System.err.println("No operations recorded!");
             }
